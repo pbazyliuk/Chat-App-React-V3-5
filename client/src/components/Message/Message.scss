@@ -1,0 +1,131 @@
+.user-message {
+    width: 45%;
+    margin-bottom: 24px;
+}
+
+.user-message-author {
+    align-self: flex-start;
+    margin-bottom: 24px;
+    max-width: 60%;
+    min-width: 15%;
+}
+
+.user-message-friend {
+    align-self: flex-end;
+    margin-bottom: 24px;
+    max-width: 60%;
+    min-width: 15%;
+}
+
+.user-message-friend {
+    align-self: flex-end;
+    margin-bottom: 24px;
+    max-width: 75%;
+    min-width: 15%;
+}
+
+.user-message-wrapper {
+    display: flex;
+    flex-direction: row;
+    min-height: 60px;
+    align-items: flex-end;
+}
+
+.avatar__img {
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+
+
+.user-message__text-cotainer-active {
+    background: #989ad7;
+    color: #fff;
+    padding: 20px 24px;
+    min-height: 60px;
+    flex-grow: 1;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.user-message__text-cotainer-active-author {
+    background: #3b3e99;
+    color: #fff;
+    padding: 20px 24px;
+    min-height: 60px;
+    flex-grow: 1;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.user-message__text-cotainer {
+    background: #cccccc;
+    color: #fff;
+    padding: 20px 24px;
+    min-height: 60px;
+    flex-grow: 1;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.user-message-friend .user-message__text-cotainer {
+    order: -1;
+    background: #cccccc;
+}
+
+
+.user-message-friend .user-message__text-cotainer-active {
+    background: #989ad7;
+    order: -1;
+}
+
+.user-message__text-author {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left; // color: #3b3e99;
+}
+
+.user-message__text-message-author {
+    font-size: 14px;
+    font-weight: 500;
+    color: #989ad7;
+    line-height: 130%;
+}
+
+.user-message__text-message {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3b3e99;
+    line-height: 130%;
+}
+
+.user-message-friend .avatar__img {
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.user-message__date-container {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.user-message-friend .user-message__date-container {
+    text-align: left;
+}
+
+.user-message__time {
+    color: #989ad7;
+}
+
+.user-message__date {
+    color: #3b3e99;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

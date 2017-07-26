@@ -1,0 +1,16 @@
+.hidden {
+	display: none;
+}
+
+.isShown {
+	display: block;
+}
+
+.login-error {
+	position: relative;
+	top: 0;
+	background-color: lightcoral;
+	text-align: center;
+	padding: 7px 0;
+	color: #fff;
+}

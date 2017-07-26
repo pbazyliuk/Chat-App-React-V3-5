@@ -1,0 +1,131 @@
+/* ==== Register Form ==== */
+
+.form__wrapper {
+    background: #fff;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: calc((100vh - 60px - 514px)/2);
+    min-height: 410px;
+    padding: 32px;
+    position: relative;
+    width: 480px;
+    border: 1px solid #989ad7;
+}
+
+.form-sign-up {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-sign-up__header {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #989ad7;
+    color: white;
+    line-height: 45px;
+    margin: 13px 0 28px;
+}
+
+.form-sign-in__label {
+    font-family: "Open Sans", "Arial", sans-serif;
+    display: block;
+    font-weight: 500;
+    color: #3b3e99;
+    margin-bottom: 8px;
+}
+
+.form-sign-up__input-field {
+    border: 1px solid #989ad7;
+    box-sizing: border-box;
+    height: 32px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.form-sign-up__container--narrow {
+    float: left;
+    width: 48%;
+}
+
+.form-sign-up__container--narrow+.form-sign-up__container--narrow {
+    float: right;
+    width: 48%;
+}
+
+.form-sign-up__btn-register:disabled {
+    background-color: grey;
+    border: white;
+    color: #fff;
+    cursor: not-allowed;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.form-sign-up__btn-register {
+    background-color: #3b3e99;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 45px;
+    margin-bottom: 13px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.form-sign-up__btn-register:not(:disabled):hover {
+    font-weight: 400;
+}
+
+.form-sign-up__container {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.header-has-error {
+    color: lightcoral;
+}
+
+.input-has-error {
+    border: 1px solid lightcoral;
+}
+
+.text-has-error {
+    color: lightcoral;
+    position: absolute;
+    top: 62px;
+    font-size: 13px;
+    padding: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #989ad7;
+}
+
+:-moz-placeholder {
+    color: #989ad7;
+}
+
+::-moz-placeholder {
+    color: #989ad7;
+}
+
+:-ms-input-placeholder {
+    color: #989ad7;
+}
